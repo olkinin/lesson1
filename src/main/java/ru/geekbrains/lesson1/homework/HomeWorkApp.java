@@ -1,5 +1,7 @@
 package ru.geekbrains.lesson1.homework;
 
+import java.util.Scanner;
+
 public class HomeWorkApp {
     public static void main(String[] args) {
         printThreeWorlds();
@@ -15,17 +17,17 @@ public class HomeWorkApp {
         System.out.println("Apple");
     }
 
-   public static void checkSumSign() {
+    public static void checkSumSign() {
         int a = 2;
         int b = 3;
-        if ((a+b)>=0) {
+        if ((a + b) >= 0) {
             System.out.println("Сумма положительна");
         } else {
             System.out.println("Сумма отрицательна");
         }
 
 
-       }
+    }
 
 
 
@@ -40,14 +42,18 @@ public class HomeWorkApp {
         }
 
     }
-    public static void compareNumbers(){
-    int a =10;
-    int b = 5;
-    if(a>=b){
-        System.out.println("a>=b");
-    }else {System.out.println("a<b");}
-}
+
+    public static void compareNumbers() {
+        int a = 10;
+        int b = 5;
+        if (a >= b) {
+            System.out.println("a>=b");
+        } else {
+            System.out.println("a<b");
+        }
     }
+
+}
 
 
 
