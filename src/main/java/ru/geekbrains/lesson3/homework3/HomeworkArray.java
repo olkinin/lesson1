@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class HomeworkArray {
     public static void main(String[] arg) {
-        // invertArray();
-        //arrayEmpty();
-        //increaseInNumbers();
+        invertArray();
+        arrayEmpty();
+        increaseInNumbers();
         twoDimensionalArray();
         ArrayWithArguments(5, 3);
         MaxMinElements();
