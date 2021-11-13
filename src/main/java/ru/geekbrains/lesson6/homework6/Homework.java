@@ -1,23 +1,12 @@
 package ru.geekbrains.lesson6.homework6;
 
-
-import javafx.beans.binding.When;
-
-import java.util.ArrayList;
-
-import static ru.geekbrains.lesson6.homework6.Animals.getDistanceRun;
-
-
 public class Homework {
 
 
     public static void main(String[] args) {
 
 
-//
-
-
-        Animals[] animals = {
+       Animals[] animals = {
                 new Dog("Tuzik"),
                 new Cat("Timofey"),
                 new Dog("Feliks"),
